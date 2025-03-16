@@ -7,14 +7,6 @@ kramdown:
 
 collections:
 
-  chords:
-    output: true
-    permalink: /:collection/:slug/
-
   lyrics:
     output: true
     permalink: /:collection/:slug/
-
-  tabs:
-    output: true
-    permalink: /:collection/:path/
