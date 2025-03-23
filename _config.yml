@@ -1,7 +1,5 @@
 name: Pop Empire
 
-destination: ./_website
-
 kramdown:
   highlighter: none
   syntax_highlighter_opts:
