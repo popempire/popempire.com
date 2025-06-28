@@ -8,16 +8,21 @@
 .slideshow-container {
   box-sizing: border-box;
   position: relative;
-  margin: auto; }
+  margin: auto; 
+  max-width: 800px; 
+  height: 400px; }
 
 .slideshow-frame {
   display: none;
+  height: 100%;
   animation-name: cycle;
   animation-duration: 5s; }
 
 .slideshow-frame img {
   width: 100%;
-  vertical-align: middle; }
+  height: 100%;
+  vertical-align: middle;
+  object-fit: cover; }
 
 /* Fading animation */
 @keyframes cycle {
