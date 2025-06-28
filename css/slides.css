@@ -10,7 +10,7 @@
   display: none;
   height: 100%;
   animation-name: cycle;
-  animation-duration: 5s; }
+  animation-duration: 10s; }
 
 .slideshow-frame img {
   width: 100%;
