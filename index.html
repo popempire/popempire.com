@@ -11,8 +11,16 @@ title:
 	<div>cincinnati usa</div>
 </header>
 
-<div>
-	<img src="{{ site.url }}{{ site.baseurl }}/images/IMG_3601-2.jpg">
+<div class="slideshow-container">
+  <div class="slideshow-frame">
+    <img src="{{ site.url }}/images/IMG_3601-2.jpg">
+  </div>
+  <div class="slideshow-frame">
+    <img src="{{ site.url }}/images/073124,f23_pe004.jpg">
+  </div>
+  <div class="slideshow-frame">
+    <img src="{{ site.url }}/images/FB_IMG_1741.jpg">
+  </div>
 </div>
 
 <div class="popPink" style="font-size:1.33em; padding:1rem; margin:1rem auto; max-width:30rem; column-span:all;">
@@ -67,3 +75,21 @@ title:
 	</a>
 </nav>
 
+<!-- slideshow script -->
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("slideshow-frame");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  slides[slideIndex-1].style.display = "block";  
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
