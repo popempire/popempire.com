@@ -9,8 +9,14 @@ LITE PINK   hsl(330,100%,80%)   #ff99cc     rgb(255,153,204)
 TEAL        hsl(165,80%,60%)    #47ebc2     rgb(71,235,195)
             hsl(174,80%,60%)    #47ebda
 BLACK       hsl(0,0,7%)         #111111
-white       hsl(40,60%,97%)     #fcf9f3
 */
+
+:root {
+    --bubblegum: #fc9ccc;
+    --hotpink: #ff3388;
+    --surfgreen: #47ebda;
+    --nearblack: #111111;
+    --nearwhite: floralwhite; }
 
 html {
     font-size: 16px;}
@@ -177,7 +183,7 @@ details > summary {
     padding: 0.5rem;
     margin: 1rem 0;
     color: #111;
-    background-color: hsl(330,94%,80%); }
+    background-color: var(--bubblegum); }
 details > summary:hover {
     color: #111;
     background-color: floralwhite; }
@@ -218,7 +224,7 @@ pre.tab, .tab pre {               /* TABLATURE */
 /* nav links */
 
 nav {
-    margin: 1.5rem auto 2.5rem;
+    margin: 1rem auto;
     max-width: 24em; }
 nav h5 {
     margin-bottom: 0; }
@@ -230,44 +236,45 @@ nav a.buttonStyle, nav.buttonStyle a {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.075em;}
-nav a div:hover, nav a:hover {
-    background-color:floralwhite;}
-nav a:visited, nav a {
-    color:floralwhite;}
-nav a:hover {
-    color:#111;}
+nav.listStyle {
+    a:hover {
+        color:#111;
+        background-color:floralwhite;}
+    a, a:visited {
+        color:floralwhite;}
+}
 
 
 /* color scheme classes */
 
-.surfGreen {
+.surfGreen, a.surfGreen {
     color:#111;
-    background-color: hsl(174,80%,60%);}
-.popPink {
+    background-color: var(--surfgreen);}
+.popPink, a.popPink {
     color:floralwhite;
-    background-color: hsl(335,100%,60%);}
-.bubblegum {
+    background-color: var(--hotpink);}
+.bubblegum, a.bubblegum {
     color:#111;
-    background-color:hsl(330,94%,80%);}
-.reverse {
+    background-color: var(--bubblegum);}
+.reverse, a.reverse {
     color:#111;
     background-color: floralwhite;}
 @media print {
-    .surfGreen, .bubblegum {
+    .surfGreen, .bubblegum, a.surfGreen, a.bubblegum {
         color: #000; }
-    .popPink {
+    .popPink, a.popPink {
         color: #fff; }
-    .reverse {
+    .reverse, a.reverse {
         color: #fff;
         background-color: #000;  }
     }
 
 .surfGreenText {
-    color: hsl(174,80%,60%); }
+    color: var(--surfgreen); }
 .bubblegumText {
-    color:hsl(330,94%,80%); }
+    color: var(--bubblegum); }
 .popPinkText {
-    color:hsl(335,100%,60%); }
+    color: var(--hotpink); }
 
 /* font classes */
 
