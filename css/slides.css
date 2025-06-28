@@ -26,5 +26,5 @@
 
 /* phone formatting */
 @media screen and (max-width: 800px) {
-  .slideshow-frame img {
+  .slideshow-container {
     max-height: 33vh; } }
