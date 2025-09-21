@@ -279,7 +279,7 @@ nav.listStyle {
 /* font classes */
 
 .fontGaramond,
-main p {
+main /*p*/ {
     font-family: 'garamond-premier-pro', 'Garamond', serif;
     font-size: 1.167em;         /* 14pt */
     font-style: normal;
