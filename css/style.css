@@ -104,6 +104,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-variation-settings: "wdth" 112.5; 
     font-stretch: semi-expanded;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: -0.075em; }
 
@@ -181,6 +182,7 @@ details > summary {
     cursor: pointer;
     padding: 0.5rem;
     margin: 1rem 0;
+    text-align: center;
     color: #111;
     background-color: var(--bubblegum); }
 details > summary:hover {
@@ -280,7 +282,7 @@ nav.listStyle {
 /* font classes */
 
 .fontGaramond,
-main /*p*/ {
+main p {
     font-family: 'garamond-premier-pro', 'Garamond', serif;
     font-size: 1.167em;         /* 14pt */
     font-style: normal;
@@ -340,10 +342,11 @@ main p code, main p kbd {
 
 /* BANDCAMP EMBED */
 iframe.bandcamp {
+    display: block;
     border: 0;
     width: 15rem;
     height: 15rem;
-    margin-bottom: 1em; }
+    margin: 0 auto 1em; }
 
 /*@media (min-width: 640px) {
     iframe.bandcamp {
