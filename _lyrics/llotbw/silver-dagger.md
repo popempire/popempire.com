@@ -49,8 +49,6 @@ slug: silver-dagger
     Frankie looked over and saw to her surprise
     Johnny's head between Nelly's thighs
 
-    ~
-
     One goes out to the love I gave you
     Two is for the lover who will never save you
     and number three will keep you true to me

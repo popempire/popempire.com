@@ -27,7 +27,6 @@ html {
 body {
     background-color:#111;
     color:floralwhite;
-    text-align: center;
     font-family: "Archivo";
     font-variation-settings: "wdth" 112.5;
     font-stretch: semi-expanded;
@@ -197,13 +196,13 @@ details[open] > summary::after {
 
 pre {
     text-align: left;
-    margin: 1em auto;
+    margin: 1em 0;
     width:fit-content;
     white-space: pre-wrap; }
 
 pre.lyrics, .lyrics pre {           /* LYRICS */
     font-size: 1em;
-    line-height: 1.5em; }
+    line-height: 1.25em; }
 
 pre.tab, .tab pre {               /* TABLATURE */
     width: auto;
@@ -225,7 +224,8 @@ pre.tab, .tab pre {               /* TABLATURE */
 
 nav {
     margin: 1rem auto;
-    max-width: 24em; }
+    max-width: 24em; 
+    text-align: center; }
 nav h5 {
     margin-bottom: 0; }
 nav a {

@@ -6,12 +6,15 @@
 {%- endif -%}
 {% if theSlug %}
 <!-- theSlug = {{ theSlug }} -->
-<pre class="lyrics">
-  {%- assign lyrics = site.lyrics | where: 'slug', theSlug -%}
-  {% for theLyrics in lyrics %}
-    {{- theLyrics.content -}}
-  {% endfor %}
-</pre>
+{%- assign lyrics = site.lyrics | where: 'slug', theSlug -%}
+{% for theLyrics in lyrics %}
+  <section style="break-inside: avoid; break-after: page;">
+    <h3 class="granjon">{{ theLyrics.title }}</h3>
+    <div class="lyrics">
+      {{- theLyrics.content -}}
+    </div>
+  </section>
+{% endfor %}
 {% else %}
 <p>No slug provided!</p>
 {% endif %}

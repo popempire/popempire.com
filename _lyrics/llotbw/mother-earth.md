@@ -13,7 +13,8 @@ notes: |
 
     I don't care how great you are
     Don't care what you're worth
-    When it all ends up you've got to go on back home to Mother Earth
+    When it all ends up
+    You've got to go on back home to Mother Earth
 
     You may play the race horses
     You may own a race track
@@ -29,5 +30,6 @@ notes: |
 
     [Refrain]
 
-    When it all ends up you've got to go on back home to Mother Earth
+    When it all ends up 
+    You've got to go on back home to Mother Earth
 
