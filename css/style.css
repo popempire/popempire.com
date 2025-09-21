@@ -225,7 +225,8 @@ pre.tab, .tab pre {               /* TABLATURE */
 nav {
     margin: 1rem auto;
     max-width: 24em; 
-    text-align: center; }
+    text-align: center;
+    font-family: 'Archivo'; }
 nav h5 {
     margin-bottom: 0; }
 nav a {
