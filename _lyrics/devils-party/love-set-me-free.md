@@ -22,7 +22,7 @@ layout: lyrics
 
     Shadows in the underneath
     Hallows in the deep beneath
-    Shining the after dark
+    Shining in the after dark
     Bending in a silver arc
 
     Dancing in my veins
