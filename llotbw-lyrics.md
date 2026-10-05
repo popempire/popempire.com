@@ -2,8 +2,6 @@
 layout: empty
 ---
 
-{% include lyrics.html slug="young-henry" %}
-
 {% include lyrics.html slug="black-dog" %}
 
 {% include lyrics.html slug="preachin-the-devil" %}
@@ -11,6 +9,8 @@ layout: empty
 {% include lyrics.html slug="lagan-dream" %}
 
 {% include lyrics.html slug="gods-grandeur" %}
+
+{% include lyrics.html slug="young-henry" %}
 
 {% include lyrics.html slug="silver-dagger" %}
 
